@@ -1,0 +1,17 @@
+<div>
+    <table datatable class="row-border hover">
+        <thead>
+            <tr>
+                <th *ngFor="let col of columns">{{col.label}}</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let data of (_dataSource$ | async)">    
+                <td *ngFor="let col of columns">{{data[col.model]}}</td>
+                <td><button (click)="delete(data)">Delete</button></td>
+            </tr>
+        </tbody>
+    </table>
+    
+</div>
