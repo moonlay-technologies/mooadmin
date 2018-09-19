@@ -42,6 +42,7 @@ namespace mooadmin_ngx_aspnetcore
                 app.UseHsts();
             }
 
+            app.UseCors(c=> { c.AllowAnyOrigin(); });
             app.UseHttpsRedirection();
             app.UseStaticFiles();
             app.UseSpaStaticFiles();

@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2018
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "mooadmin-ngx-aspnetcore", "mooadmin-ngx-aspnetcore.csproj", "{4B5F7EA9-07C1-4245-9CD6-AF486A4E409E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mooadmin.Ngx.AspNetCore", "Mooadmin.Ngx.AspNetCore.csproj", "{4B5F7EA9-07C1-4245-9CD6-AF486A4E409E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

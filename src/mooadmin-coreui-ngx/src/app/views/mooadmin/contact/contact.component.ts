@@ -36,7 +36,7 @@ export class ContactComponent implements OnInit {
     ngAfterViewInit() {
         // Called after ngAfterContentInit when the component's view has been initialized. Applies to components only.
         // Add 'implements AfterViewInit' to the class.
-        this.getContacts();
+        // this.getContacts();
         console.log(this.list);
     }
 
