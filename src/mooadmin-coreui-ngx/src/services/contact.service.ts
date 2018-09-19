@@ -10,8 +10,8 @@ export class ContactService extends ActiveRecord<Contact> {
     constructor(public options: ApiConfig, public http: Http) {
         super(options, http, 'contacts');
 
-        this.api_url = 'http://11.11.7.111:8080/api/contacts';
-       // this.api_url = 'http://localhost:8080/api/contacts';
+        // this.api_url = 'http://11.11.7.111:8080/api/contacts';
+       this.api_url = 'https://localhost:5001/api/contacts';
 
        /*
        * String Field
